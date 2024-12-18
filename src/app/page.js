@@ -1013,13 +1013,13 @@ export default function Home() {
                   <i className="fa-solid fa-location-dot"></i> 1509 Lady St,
                   Columbia, SC 29201
                 </p>
-                <a href="tel:+911234567890" className="text-white block mb-5">
+                {/* <a href="tel:+911234567890" className="text-white block mb-5">
                   <FaPhone className="inline-block mr-2" />
                   +91 123 456 7890
-                </a>
+                </a> */}
                 <a href="mailto:info@example.com" className="text-white block">
                   <FaEnvelope className="inline-block mr-2" />
-                  info@example.com
+                  info@LegitZone.law
                 </a>
               </div>
             </div>
