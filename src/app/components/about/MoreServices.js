@@ -10,7 +10,7 @@ function MoreServices({ moreServicesData }) {
         {/* Conditionally render "Edit" button based on authToken */}
 
         <div>
-          <div className="d-flex flex-column flex-lg-row justify-content-around">
+          <div className="flex flex-column flex-lg-row justify-around">
             <div
               className="mx-3 mx-lg-5 mb-4 mb-lg-0"
               style={{ maxWidth: "420px" }}

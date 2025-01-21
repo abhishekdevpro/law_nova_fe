@@ -39,7 +39,7 @@ function Introductions({ introductionData }) {
             className="mb-2"
             dangerouslySetInnerHTML={{ __html: introductionData.paragraph2 }}
           ></div>
-          <div className="mx-3 mx-lg-5 d-flex justify-content-center">
+          <div className="mx-3 mx-lg-5 flex justify-center items-center ">
             <img
               src={`https://api.novajobs.us${imgData[0]}`}
               alt="Uploaded Image"

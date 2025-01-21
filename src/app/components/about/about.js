@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect } from "react";
 import axios from "axios";
 import "./aboutus.css";
@@ -7,6 +8,7 @@ import ForEmployer from "./ForEmployer";
 import Novajobsus from "./Novajobsus";
 import MoreServices from "./MoreServices";
 import Header from "../header/header";
+import Footer from "../footer/footer";
 
 function About() {
   const [sections, setSections] = React.useState([]);
@@ -69,6 +71,7 @@ function About() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

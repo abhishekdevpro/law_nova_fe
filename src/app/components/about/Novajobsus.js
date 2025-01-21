@@ -47,7 +47,7 @@ function Novajobsus({ novaJobsusData }) {
               {imgData.map((image, index) => (
                 <Carousel.Item key={index}>
                   <img
-                    className="d-block w-100"
+                    className="d-block w-100 flex justify-center items-center"
                     src={`https://api.novajobs.us${image}`}
                     alt={`Slide ${index + 1}`}
                   />
